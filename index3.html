@@ -11,6 +11,8 @@
         crossorigin="anonymous"></script>
     <!-- https://cdnjs.com/libraries/font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <style>
         @font-face {
             font-family: "Warfare";
@@ -69,20 +71,27 @@
             max-width: 80vw;
             max-height: 80vh;
         }
+
+        #separator {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
     </style>
 
     <script>
         function showImage(img) {
-            document.getElementById("enlargedImg").src = img.src;
-            document.getElementById("overlay").style.display = "block";
-            document.getElementById("imageContainer").style.display = "block";
-            document.addEventListener('keydown', closeOnEsc);
+            $('#enlargedImg').attr('src', img.src);
+            $('#overlay').fadeIn();
+            $('#imageContainer').fadeIn();
+            $(document).on('keydown', closeOnEsc);
         }
 
         function hideImage() {
-            document.getElementById("overlay").style.display = "none";
-            document.getElementById("imageContainer").style.display = "none";
-            document.removeEventListener('keydown', closeOnEsc);
+            $('#overlay').fadeOut();
+            $('#imageContainer').fadeOut('slow', function () {
+                $('#enlargedImg').attr('src', '');
+            });
+            $(document).off('keydown', closeOnEsc);
         }
 
         function closeOnEsc(e) {
@@ -93,7 +102,7 @@
     </script>
 </head>
 
-<body>
+<body class="bg-dark">
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary py-3 mb-4" data-bs-theme="dark">
             <div class="container-fluid">
@@ -118,7 +127,7 @@
     <main class="p-5">
         <section class="mb-5">
             <article>
-                <h2>Hades</h2>
+                <h2 class="text-white">Hades</h2>
                 <div class="gallery">
                     <img src="img/Hades/Game1.jpg" alt="Game Image" onclick="showImage(this)">
                     <img src="img/Hades/Game2.jpg" alt="Game Image" onclick="showImage(this)">
@@ -136,7 +145,7 @@
 
         <section class="mb-5">
             <article>
-                <h2>Call of Duty: Modern Warfare 2</h2>
+                <h2 class="text-white">Call of Duty: Modern Warfare 2</h2>
                 <div class="gallery">
                     <img src="img/CoD/Game1.jpg" alt="Game Image" onclick="showImage(this)">
                     <img src="img/CoD/Game2.jpg" alt="Game Image" onclick="showImage(this)">
@@ -154,7 +163,7 @@
 
         <section class="mb-5">
             <article>
-                <h2>Super Robot</h2>
+                <h2 class="text-white">Super Robot</h2>
                 <div class="gallery">
                     <img src="img/SuperRobot/Game1.png" alt="Game Image" onclick="showImage(this)">
                     <img src="img/SuperRobot/Game2.png" alt="Game Image" onclick="showImage(this)">
@@ -171,17 +180,11 @@
         </section>
     </main>
 
-    <!-- https://www.youtube.com/watch?v=4fexoLuGpeI&ab_channel=TheProviders -->
+    <hr class="mb-0" style="color: white;" id="separator">
+
     <footer class="text-center bg-dark text-white pt-5 pb-4">
         <div class="container text-center text-md-left">
             <div class="row text-center text-md-left">
-                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">About us</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos exercitationem quis,
-                        excepturi illo itaque, cum molestiae a animi, voluptatibus quibusdam consequuntur accusantium
-                        pariatur iure dolor quas? Nostrum, quisquam eligendi! Cumque.</p>
-                </div>
-
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                     <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contact</h5>
                     <p>
@@ -196,11 +199,11 @@
                 </div>
             </div>
 
-            <hr class="mb-4">
+            <hr class="mb-4" style="color: white;">
 
             <div class="row align-items-center">
                 <div class="col-md-7 col-lg-8">
-                    <p>Copyright 2023 All rights reserved by:
+                    <p>Copyright ©2023 All rights reserved by:
                         <a href="" style="text-decoration: none;">
                             <strong class="text-primary">Tomáš Novotný</strong>
                         </a>
