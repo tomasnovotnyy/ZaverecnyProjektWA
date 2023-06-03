@@ -3,7 +3,7 @@
 
 # *Popis webové stránky*
 > *Tato webová stránka Vám přináší recenze o počítačových a konzolových hrách, informací ze světa technologií a mnoho dalších. Hráči a hráčky všeho věku si zde najdou svá oblíbená témata.*
-> <br/><br/><br/>
+<br/><br/><br/>
 # *Start*
 > Tlačítko start slouží pro otevření nové formy s nabídkou tří nových možností:
 >  | Button | Název |
