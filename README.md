@@ -2,7 +2,7 @@
 # *TechZone*
 [- text in red](https://placehold.it/150/ffffff/ff0000?text=TechZone)
 ```diff
-- Tech
+Tech
 + text in green
 ! text in orange
 # text in gray
