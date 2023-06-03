@@ -1,28 +1,9 @@
 # ZaverecnyProjektWA
 # *TechZone*
-- ![#f03c15] `#f03c15`
-+ Tato aplikace slouží pro:
-  - Vytvoření svého vlastního stromu, který je poté reprezentován jak v slovně 
-popsané podobě, tak i v lidsky čitelné podobě.
-  - Nalezení nejkratší cesty z vrcholu 𝑠 (startovního vrcholu) do ostatních vrcholů grafu pomocí Dijkstrova algoritmu.
-  - Kódování a dekódování binárního kódu, reversního kódu a Caesarovy šifry.<br/>
-+ Při spuštění si uživatel může zvolit ze tří různých možností:
 
-  | Button | Název |
-  |:---|:---:|
-  |     1.| Popis aplikace |
-  |     2.| Start |
-  |     3.| Tutorial |
-+ Pro zavření aplikace může uživatel použít křížek v pravém horním rohu nebo tlačítko **'Exit'**.<br/><br/>
 # *Popis aplikace*
-> *Toto tlačítko slouží pro rychlé a jednoduché pochopení cíle mé závěrečné práce z předmětu PV. Zároveň je zde popsáno co vše je v aplikaci možné dělat.*<br/><br/><br/>
-> Cílem mé závěrečné práce z předmětu PV bylo vytvořit aplikaci, která by byla schopná nechat 
-uživatele, aby si mohl vytvořit svůj vlastní strom, který by byl poté reprezentovaný jak v slovně 
-popsané podobě, tak i v lidsky čitelné podobě.<br/><br/>
-> Program je také schopný spočítat počet vrcholů 
-v grafu, projít strom do hloubky (Preorder, Inorder, Postorder, HeapSort, QuickSort) a uložit finální strom do textového souboru.<br/><br/>
-> Dále program dokáže najít nejkratší cestu z vrcholu 𝑠 (startovního vrcholu) do ostatních vrcholů grafu pomocí Dijkstrova algoritmu.<br/><br/>
-> Program také dokáže kódovat a dekódovat binární kód, reversní kód a Caesarovu šifru.<br/><br/>
+> *Tato webová stránka Vám přináší recenze o počítačových a konzolových hrách, informací ze světa technologií a mnoho dalších. Hráči a hráčky všeho věku si zde najdou svá oblíbená témata.*<br/><br/><br/>
+
 # *Start*
 > Tlačítko start slouží pro otevření nové formy s nabídkou tří nových možností:
 >  | Button | Název |
