@@ -1,6 +1,6 @@
 # ZaverecnyProjektWA
 # *TechZone*
-- text in red
+[- text in red](https://placehold.it/150/ffffff/ff0000?text=TechZone)
 + Tato aplikace slouží pro:
   - Vytvoření svého vlastního stromu, který je poté reprezentován jak v slovně 
 popsané podobě, tak i v lidsky čitelné podobě.
