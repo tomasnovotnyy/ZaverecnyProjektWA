@@ -1,5 +1,5 @@
 # ZaverecnyProjektWA
-# *TechZone*
+# *Název - TechZone*
 
 # *Popis webové stránky*
 > *Tato webová stránka Vám přináší recenze o počítačových a konzolových hrách, informací ze světa technologií, řadu 'geek' vtipů a galerii mnoha zajímavých her.*
