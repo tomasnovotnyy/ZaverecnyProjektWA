@@ -1,4 +1,4 @@
-# ZaverecnyProjektWA
+# Závěrečný Projekt WA
 # *Název - TechZone*
 
 # *Popis webové stránky*
